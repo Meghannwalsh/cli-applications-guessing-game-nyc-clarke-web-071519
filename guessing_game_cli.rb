@@ -10,6 +10,6 @@ def run_guessing_game
   elsif guess != answer
     puts "You guessed the correct number!"
   elsif guess == 'exit'
-    puts "Goodbye!"
+    puts "/Goodbye!/"
   end
 end
