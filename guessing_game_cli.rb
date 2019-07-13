@@ -1,10 +1,8 @@
 # Code your solution here!
-def guessing_CLI
-  guess = gets.chomp
-    run_guessing_game(guess)
-end
 
-def run_guessing_game(guess)
+
+def run_guessing_game
+  guess = gets.chomp
   if guess == false
     puts "Sorry! The computer guessed #{guess}"
   elsif guess == true
