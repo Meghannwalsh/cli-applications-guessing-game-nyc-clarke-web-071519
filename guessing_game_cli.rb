@@ -1,7 +1,7 @@
 # Code your solution here!
 def guessing_CLI
-  answer = gets.chomp
-    run_guessing_game(answer)
+  guess = gets.chomp
+    run_guessing_game(guess)
 end
 
 def run_guessing_game(guess)
